@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work Experience</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- // подключаем библиотеку стилей css "Bootstrap" -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Подключение JS -->
+    <style>
+      p {
+        line-height: 2;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+    </style>
+    <!-- //добавляем собственный css стиль: ширина 80%, радиус 55%. 
+      Обязательно вводим класс к изображению, к которому класс будет применяться: class="rounded-img";
+       box-shadow - задаём тень. Прозрачность (интеснсивность от 0 до 1) задали 1;
+        внутренний отступ (белая рамка) изображения 0,3 единицы измерения em. Для инфо: margin - внешний,
+        padding - внутренний; margin-bottom - отступ после изображения -->
+  </head>
+  <body>
+    <!--Добавление панели навигации с помощью комплнента библиотеки bootstap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- bg = backgroung, 
+      navbar - буквы для какого стиля? Для dark - белые буквы -->
+      <div class="container">
+        <a class="navbar-brand p-0" href="Home.html">
+          <img src="HomeLogo.png" alt="Logo" width="80" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- тег ul = unordered list для Создания списка разделов навигации -->
+            <li class="nav-item">
+              <!-- li = list elements - тег создания раздела навигации -->
+            </li>
+            <li class="nav-item">
+              <!-- li = list elements - тег создания раздела навигации -->
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="Work experience.html"
+                >Опыт работы</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Education.html">Образование</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Additional Education.html"
+                >Повышение квалификации</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About me.html">Обо мне</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Добавление панели навигации с помощью комплнента библиотеки bootstap -->
+    <!-- Раскрывающееся меню -->
+    <div class="container" style="margin-top: 1%">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseOne"
+          >
+            <p>
+              июль 2021 г. - по настоящее время
+              <br />
+              <strong>АО "ТД "ЭРА" - менеджер проектов</strong>
+            </p>
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingOne"
+        >
+          <div class="accordion-body">
+            <div>
+              июль 2022 - по настоящее время
+            </div>
+            <div class="raw" style="margin-top: 0%;">
+              <strong>Менеджер проекта Сайта компании Улыбка Радуги</strong>
+            </div>
+            <div class="raw" style="margin-top: 0.5%; margin-left: 1%;">
+              <strong>Функционал:</strong>
+              <br> -	планирование ресурсов команды, оценка сроков разработки;
+              <br> -	прогнозирование и оценка рисков несвоевременной реализации доработок;
+              <br> -	расстановка приоритетов по задачам совместно с менеджерами продуктов;
+              <br> -	определение оптимальных инструментов и методологий разработки ПО;  
+              <br> -	координация работы команды над проектом для эффективной реализации выполнения задач в установленные сроки;
+              <br> -	отслеживание и подготовка отчетностей по продуктивности команды разработки;
+              <br> -	мотивация команды и разрешение конфликтов;
+              <br> -	демонстрация реализованных задач по разработке владельцам продуктов;
+              <br> -	фиксация изменений продукта со сроками внедрения в production.
+              <br> -	ведение проектной документации совместно с командой разработки и владельцем продукта.
+            </div>
+            <div class="raw" style="margin-top: 0.5%; margin-left:1%">
+              <strong>Проекты:</strong>
+              <br> - разработка нового сайта на фреймворке Next.js;
+              <br> - реализация паттерна проектирования Backend-for-Frontend (BFF) для сайта и мобильного приложения.
+            </div>
+            <div class="raw" style="margin-top: 2%">
+              июль 2021 - июль 2022
+            </div>
+            <div> <strong>Менеджер проекта магазина Улыбка Радуги на AliExpress</strong> 
+            </div>
+            <div class="raw" style="margin-top: 0.5%; margin-left: 1%;">
+              <strong>Проджектовый функционал</strong>:
+              <br> - обеспечение внутренних и внешних коммуникаций;
+              <br> - оценка и планирование задач спринта;
+              <br> - постановка, сопровождение и контроль выполнения задач (разработчики, операционный партнёр (аутсорсинг), логистический партнёр);
+              <br> - сбор user stories, формирование БТ;
+              <br> - подготовка ТЗ проектов;
+              <br> - ведение roadmap;
+              <br> - документация процессов, ведение базы знаний;
+              <br> - разработка мероприятий по устранению несоответствий.
+            </div>
+                <div class="raw" style="margin-top: 0.5%; margin-left: 1%;">
+                <strong>Продуктовый функционал:</strong>
+                Продуктовые задачи:
+                <br>- разработка стратегии развития;
+                <br>- расчёт unit-экономики;
+                <br>- анализ конкурентов;
+                <br>- формирование и приоритизация бэклога совместно с менеджером продукта.
+                </div>
+                <div class="raw" style="margin-top: 0.5%; margin-left: 1%;">
+                  <strong>Проекты:</strong>
+                  <br>- управление каналами онлайн продаж (сайт, мобильное приложение, маркетплейсы);
+                  <br>- API интеграция с маркетплейсом;
+                  <br>- система централизованного управления контентом (проект общий, участвовал больше со стороны маркетплейсов).
+            </div>
+          </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo"
+          > 
+            <p>
+              июль 2015 г. - июль 2021 <br />
+              <strong>АО "Концерн "МПО - Гидроприбор" - заместитель начальника отдела межзаводской кооперации</strong>
+            </p>
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo"
+        >
+          <div class="accordion-body">
+              <div div class="raw" style="margin-top: 0%; margin-left: 0%;">
+                июль 2019 - июль 2021
+              </div>
+              <div div class="raw" style="margin-top: 0%; margin-left: 0%;">
+                <strong>Заместитель начальника отдела межзаводской кооперации</strong>
+              </div>
+                <div class="raw" style="margin-top: 0.5%; margin-left: 1%;">
+                  <strong>Обязанности:</strong>
+                  <br> - координация работы отдела (инженерный состав, склад, логистика, делопроизводство);
+                  <br> - согласование поставщиков и передача на утверждение службам предприятия;
+                  <br> - организация и проведение деловых встреч по вопросам сотрудничества;
+                  <br> - контроль согласования, оформления, подписания и выполнения договоров по линии межзаводской кооперации;
+                  <br> - согласование комплекта документации для конкурентных закупок перед передачей на публикацию в отдел закупок;
+                  <br> - организация претензионной работы совместно с ОТК;
+                  <br> - участие в разработке плана закупок организации;
+                  <br> - решение задач, касающихся поставок сложной продукции (согласование альтернативных вариантов исполнения; дифференцирование работ на несколько площадок и собственный производственный блок);
+                  <br> - ведение работы по разработке и пересмотру нормативных документов в рамках отдела;
+                  <br> - развитие нового направления: выполнение работ и изготовление продукции гражданского назначения;
+                </div>
+                <div class="raw" style="margin-top: 0.1%; margin-left:1%"> 
+                <strong>Дополнительно:</strong>
+                <br>- в целях обеспечения результативного функционирования и совершенствования СМК, назначен уполномоченным лицом по качеству, в дополнении к основным функциональным обязанностям;
+                <br>- утверждение в составе рабочей группы изготовления продукции гражданского назначения (силами собственного предприятия);
+                <br>- занесён на Доску почета АО "Концерн "МПО - Гидроприбор" в июле 2020 г.
+                </div>
+                <div class="raw" style="margin-top: 2%;">
+                  апрель 2017 - июль 2019
+                </div>
+                <div class="raw">
+                  <strong>
+                    Ведущий инженер отдела межзаводской кооперации
+                  </strong>
+                </div>
+                <div class="raw" style="margin-top: 0.5%; margin-left: 1%">
+                  <strong>
+                    Обязанности:
+                  </strong>
+                  <br> - координация работы инженерного состава;
+                  <br> - анализ, оценка, подготовка документации по поставщикам для руководства;
+                  <br> - согласование и заключение договоров с контрагентами;
+                  <br> - урегулирование вопросов, касающихся разногласий в процессе согласования договоров и технической документации;
+                  <br> - контроль полного цикла поставки изделий, от заявки до приёмки;
+                  <br> - сопровождение претензионной работы.
+                  <div class="raw" style="margin-top: 0.5%;">
+                    <strong> Дополнительно: </strong> 
+                  </div> 
+                  - Разработка и согласование нормативных документов.
+                </div> 
+                <div class="raw" style="margin-top: 2%;">
+                  июль 2015 - апрель 2015
+                </div>
+                <div class="raw">
+                  <strong> Инженер отдела межзаводской кооперации </strong>
+                </div>
+                <div class="raw" style="margin-top: 0.5%;">
+                  <strong>
+                    Обязанности:
+                  </strong>
+                  <br> - Анализ поставщиков и компаний, предоставляющих услуги металлообработки и поставляющих готовые изделия из металла.
+                  <br> - Сопровождение процесса согласования технической документации, оформление договорных документов, мониторинг процесса поставки, идентификация проблем поставок на всех уровнях.
+                  <br> - Сопровождение процесса согласование договорных документов.
+
+                </div>
+        </div>
+        </div>
+      </div>
+      <!-- Дельта -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree"
+          >
+            <p>
+              февраль 2014 г. - февраль 2015 <br />
+              <strong>ООО "ПП "Дельта" - инженер по развитию</strong> 
+            </p>
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree"
+        >
+          <div class="accordion-body">
+            <div>
+              <strong>
+                Функционал:
+              </strong>
+            </div>
+            <div>
+              Оптимизация производственных процессов.
+            </div>
+            <div class="raw" style="margin-top: 0.5%;">
+              <strong>
+                Результаты работы:
+              </strong> 
+              <br> - определены места хранения изделий и комплектующих, создана система их самовосполнения.
+              <br> - определено оптимальное количество складских запасов, проработана внутрицеховая логистика.
+              <br> - увеличена эффективность выпуска участков порошковой окраски и сборки ("узкие" места).
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Раскрывающееся меню -->
+    <!-- Modal -->
+    <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Контакты
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <p class="fw-light" align="center" >телефон для связи: +79218942920</p>
+          <p class="fw-light" align="center">email: as.knutarev@gmail.com</p>
+          <p class="fw-light" align="center">Telegram: A_Knut</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Добавление модального окна из библиотеки Bootstap -->
+  </body>
+</html>
